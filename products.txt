@@ -1,31 +1,20 @@
 [
   {
-    "algo": "ese algo",
-    "id": 1
+    "name": "producto3",
+    "otroDato": 200000,
+    "id": 1,
+    "date": "Tue, 22 Nov 2022 17:24:04 GMT"
   },
   {
-    "nombre": "producto1",
-    "otroDato": 25,
-    "id": 2
+    "name": "producto3",
+    "otroDato": 200000,
+    "id": 2,
+    "date": "Tue, 22 Nov 2022 17:23:49 GMT"
   },
   {
-    "nombre": "producto1",
-    "otroDato": 25,
-    "id": 3
-  },
-  {
-    "nombre": "producto1",
-    "otroDato": 25,
-    "id": 4
-  },
-  {
-    "nombre": "producto1",
-    "otroDato": 25,
-    "id": 5
-  },
-  {
-    "name": "producto1",
-    "otroDato": 25,
-    "id": 6
+    "name": "producto4",
+    "otroDato": 400000,
+    "id": 3,
+    "date": "Tue, 22 Nov 2022 18:05:52 GMT"
   }
 ]
