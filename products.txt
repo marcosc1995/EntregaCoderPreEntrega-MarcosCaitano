@@ -1,0 +1,31 @@
+[
+  {
+    "algo": "ese algo",
+    "id": 1
+  },
+  {
+    "nombre": "producto1",
+    "otroDato": 25,
+    "id": 2
+  },
+  {
+    "nombre": "producto1",
+    "otroDato": 25,
+    "id": 3
+  },
+  {
+    "nombre": "producto1",
+    "otroDato": 25,
+    "id": 4
+  },
+  {
+    "nombre": "producto1",
+    "otroDato": 25,
+    "id": 5
+  },
+  {
+    "name": "producto1",
+    "otroDato": 25,
+    "id": 6
+  }
+]
