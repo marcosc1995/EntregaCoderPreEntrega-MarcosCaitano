@@ -1,20 +1,52 @@
 [
   {
-    "name": "producto3",
-    "otroDato": 200000,
+    "nombre": "product1",
+    "description": "description product",
+    "code": 666,
+    "img": "https://cdn2.iconfinder.com/data/icons/leto-blue-big-data/64/big_data-04-512.png",
+    "price": 999,
+    "stock": 100,
     "id": 1,
-    "date": "Tue, 22 Nov 2022 17:24:04 GMT"
+    "date": "Wed, 23 Nov 2022 19:34:10 GMT"
   },
   {
-    "name": "producto3",
-    "otroDato": 200000,
+    "nombre": "product2",
+    "description": "description product2",
+    "code": 666,
+    "img": "https://cdn2.iconfinder.com/data/icons/leto-blue-big-data/64/big_data-04-512.png",
+    "price": 999,
+    "stock": 100,
     "id": 2,
-    "date": "Tue, 22 Nov 2022 17:23:49 GMT"
+    "date": "Wed, 23 Nov 2022 19:34:33 GMT"
   },
   {
-    "name": "producto4",
-    "otroDato": 400000,
+    "nombre": "product3",
+    "description": "description product3",
+    "code": 666,
+    "img": "https://cdn2.iconfinder.com/data/icons/leto-blue-big-data/64/big_data-04-512.png",
+    "price": 999,
+    "stock": 100,
     "id": 3,
-    "date": "Tue, 22 Nov 2022 18:05:52 GMT"
+    "date": "Wed, 23 Nov 2022 19:34:41 GMT"
+  },
+  {
+    "nombre": "product4",
+    "description": "description product4",
+    "code": 666,
+    "img": "https://cdn2.iconfinder.com/data/icons/leto-blue-big-data/64/big_data-04-512.png",
+    "price": 999,
+    "stock": 100,
+    "id": 4,
+    "date": "Wed, 23 Nov 2022 19:34:49 GMT"
+  },
+  {
+    "nombre": "product5",
+    "description": "description product5",
+    "code": 666,
+    "img": "https://cdn2.iconfinder.com/data/icons/leto-blue-big-data/64/big_data-04-512.png",
+    "price": 999,
+    "stock": 100,
+    "id": 5,
+    "date": "Wed, 23 Nov 2022 21:10:07 GMT"
   }
 ]
