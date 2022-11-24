@@ -53,6 +53,7 @@ function printProducts(arr) {
             type="text"
             class="form-control"
             id="productName${arr[i].id}"
+            value="${arr[i].nombre}"
             name="nombre"            
             placeholder="Nombre del Producto"
           />
