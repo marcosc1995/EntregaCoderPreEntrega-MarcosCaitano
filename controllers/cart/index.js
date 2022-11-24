@@ -3,7 +3,22 @@ const { v4: uuidv4 } = require("uuid");
 
 class Cart {
   constructor() {
-    this.db = "./cart.txt";
+    //this.db = "./cart.txt";
+  }
+  async generateId(arr) {
+    const data = await arr;
+    if (data.length === 0) {
+      let id = 1;
+      return id;
+    }
+    let id = data.map((produc) => produc.id);
+    return Math.max(...id) + 1;
+  }
+  generateDate() {
+    const tiempoTrans = Date.now();
+    const date = new Date(tiempoTrans);
+    const utc = date.toUTCString();
+    return utc;
   }
   writeData(datos, id) {
     fs.writeFileSync(`./cart${id}.txt`, JSON.stringify(datos, null, 2));
@@ -21,6 +36,8 @@ class Cart {
     try {
       const data = fs.readFileSync(`./cart${id}.txt`, "utf-8");
       const prsData = JSON.parse(data);
+      newPrd.id = await this.generateId(prsData.products);
+      newPrd.date = this.generateDate()
       prsData.products.push(newPrd);
       this.writeData(prsData, id);
     } catch (error) {

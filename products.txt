@@ -1,13 +1,13 @@
 [
   {
-    "nombre": "product1",
-    "description": "description product",
+    "nombre": "producttest",
+    "description": "description producttest",
     "code": 666,
     "img": "https://cdn2.iconfinder.com/data/icons/leto-blue-big-data/64/big_data-04-512.png",
     "price": 999,
     "stock": 100,
     "id": 1,
-    "date": "Wed, 23 Nov 2022 19:34:10 GMT"
+    "date": "Thu, 24 Nov 2022 02:00:58 GMT"
   },
   {
     "nombre": "product2",

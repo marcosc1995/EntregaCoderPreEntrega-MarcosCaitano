@@ -7,8 +7,7 @@ const controller = new CartController();
 
 routerCart.post("/", (req, res) => {
   const testCart = {
-    id: 6,    
-    time: 666,
+    id: 10,    
     products: [
       {
         nombre: "product1",
@@ -33,6 +32,7 @@ routerCart.post("/", (req, res) => {
       
     ],
   };
+  testCart.date = controller.generateDate()
   controller.createCart(testCart, testCart.id);
   res.send(`carrito creado con la id ${testCart.id}`);  
 });
