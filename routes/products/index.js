@@ -27,11 +27,11 @@ routerProducts.put("/:id", async (req, res) => {
   //controller.writeData(newList)
   res.send(newList);
 });
-routerProducts.delete("/:id", (req, res) => {
+routerProducts.delete("/:id",async (req, res) => {
   try {
     const idParam = parseInt(req.params.id);
-    const deleted = controller.deleteById(idParam);
-    res.send(deleted);
+    const deleted = await controller.deleteById(idParam);
+    res.send(`Producto con ID: ${idParam} borrado Correctamente`);
   } catch (error) {
     console.log(error);
   }

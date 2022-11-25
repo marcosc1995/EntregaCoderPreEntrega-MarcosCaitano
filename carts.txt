@@ -1,0 +1,32 @@
+[
+  {
+    "products": [
+      {
+        "name": "product666",
+        "description": "description product5",
+        "code": 666,
+        "img": "https://cdn2.iconfinder.com/data/icons/leto-blue-big-data/64/big_data-04-512.png",
+        "price": 999,
+        "stock": 100,
+        "id": 1
+      }
+    ],
+    "id": 1,
+    "date": "Fri, 25 Nov 2022 00:38:35 GMT"
+  },
+  {
+    "products": [
+      {
+        "name": "product666",
+        "description": "description product5",
+        "code": 666,
+        "img": "https://cdn2.iconfinder.com/data/icons/leto-blue-big-data/64/big_data-04-512.png",
+        "price": 999,
+        "stock": 100,
+        "id": 1
+      }
+    ],
+    "id": 2,
+    "date": "Fri, 25 Nov 2022 00:38:26 GMT"
+  }
+]

@@ -49,7 +49,7 @@ class Products {
       product.date = date.toUTCString();
       this.productos.push(product);
       this.writeData(this.productos);
-      console.log(`${product.name} se guardo correctamente`);
+      console.log(`${product.nombre} se guardo correctamente`);
       return product.id;
     } catch (e) {
       console.log(e);
@@ -67,7 +67,7 @@ class Products {
   }
   async getById(id) {
     try {
-      const data = await this.products;
+      const data = await this.readData();
       let itemToFind = data.find((item) => item.id === id);
       //console.log(itemToFind ? itemToFind : null);
       return itemToFind ? itemToFind : null;
@@ -91,6 +91,7 @@ class Products {
       });
       //return newProducts;
       this.writeData(newProducts);
+      return newItem
     } catch (error) {}
   }
   //   async save() {
